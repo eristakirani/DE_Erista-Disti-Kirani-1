@@ -69,5 +69,14 @@ Git reset
 - hard 
 
   uncommit + unstage + delete changes, nothing left. 
+  
+
+
+
+
+
+
+
+
 
 
