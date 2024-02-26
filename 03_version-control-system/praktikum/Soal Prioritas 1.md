@@ -6,7 +6,7 @@ Buatlah sebuah repository Github yang sesuai dengan  format namaKelas\_namaKalia
 
 Jawaban: 
 
-(![alt text](../screenshots/screenshots-repository-github-namakelas-nama.jpeg)
+![alt text](../screenshots/screenshots-repository-github-namakelas-nama.jpeg)
 
 Buatlah folder yang berurutan dan diberi nama sesuai dengan nama soal yang kalian kerjakan. contoh penamaan
 
@@ -16,7 +16,7 @@ Buatlah folder yang berurutan dan diberi nama sesuai dengan nama soal yang kalia
 
 seterusnya sesuai dengan nama soal yang kalian kerjakan. buat folder tersebut sampai soal rest API.
 
-(![alt text](../screenshots/screenshots-folder-berurutan.png)
+![alt text](../screenshots/screenshots-folder-berurutan.png)
 
 Pada setiap folder berisi sub folder seperti berikut:
 
@@ -24,5 +24,5 @@ Pada setiap folder berisi sub folder seperti berikut:
 
 Lakukan commit: 
 
-(![alt text](../screenshots/screenshots-melakukan-commit.jpeg)
+![alt text](../screenshots/screenshots-melakukan-commit.jpeg)
 
