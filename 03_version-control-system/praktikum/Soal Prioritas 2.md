@@ -10,11 +10,11 @@ Lakukan Pull Request pada branch tersebut sehingga akan menambah hal baru pada b
 
 Jawaban: 
 
-![]![alt text](../screenshots/screenshots1.jpeg)
+![alt text](../screenshots/screenshots1.jpeg)
 
 
-![]![alt text](../screenshots/screenshots2.jpeg)
+![alt text](../screenshots/screenshots2.jpeg)
 
-![]![alt text](../screenshots/screenshots3.jpeg)
+![alt text](../screenshots/screenshots3.jpeg)
 
 
