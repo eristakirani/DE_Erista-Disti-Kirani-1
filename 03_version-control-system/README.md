@@ -70,14 +70,9 @@ Git reset
 
   uncommit + unstage + delete changes, nothing left. 
   
-  s
+  git 
 
 
-
-
-
-
-  
 
 
 
