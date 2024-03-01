@@ -44,18 +44,18 @@ def tentukan_prioritas(budget, waktu, kesulitan):
     else:
         return "Impossible"
 
-input_budget = 40
-input_waktu = 25
-input_kesulitan = 5
+input_budget = 50
+input_waktu = 20
+input_kesulitan = 3
 print("Input:")
 print("Budget:", input_budget)
 print("Waktu pengerjaan:", input_waktu)
 print("Tingkat kesulitan:", input_kesulitan)
 print("Output:", tentukan_prioritas(input_budget, input_waktu, input_kesulitan))
 
-input_budget = 51
-input_waktu = 10
-input_kesulitan = 3
+input_budget = 80
+input_waktu = 6
+input_kesulitan = 6
 print("\nInput:")
 print("Budget:", input_budget)
 print("Waktu pengerjaan:", input_waktu)
