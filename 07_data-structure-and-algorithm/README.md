@@ -83,4 +83,3 @@ Counting sort - O  (n + k )
 The idea: First, count the elements in the array of counters. Next, just iterate through the array of counters in increasing order. Notice that we have to know the range of the sorted value. if all the the elements are in the set {0, 1, …, k}, then  the array used for counting should  
 
 
-j
