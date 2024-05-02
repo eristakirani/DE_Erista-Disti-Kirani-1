@@ -1,0 +1,1 @@
+[2024-05-02T22:58:47.789+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: 17_dag_buah.create_buah_table scheduled__2024-04-25T00:00:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
