@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "erista-cloud",
+  "private_key_id": "cfe7eddd129d89478cb31717d94e8bbbc9b448f5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6GiDesrkuRgHr\nt5dM64aITDIsfk0obQ9pVBOIfGz/aZ13eMDarZy1xWot51dbkysxNBcw8AmG5ODA\nO4ZC64NzQJJuclYxp2A14WH1qjwQpYjFeLclYXkF2s4vgTtUMZAPkrqVpH66Kzgc\nVo/IEOqnYr7swymzOYinxJ2Dw9xeMlBm1B90nn/kT9T7qbQZHou1b9jODrN7wYX8\nyRxdfdyYcaMl/NLGjfGNHKYTORmsftsD5i57TQngbolSPibclNY1YA+cjHIrU/w3\nnhAqPL9cNYLEUOgh0p6wqYM1UH3/MyrsVzA6Olqnqwf95tR+tUeYJtRjlwBmMDcS\nyPsiSouPAgMBAAECggEAHro0sNXX7zTTmVy7/bvU/957hE7VpOCeTvj5AVabVUVW\nIMVOgRdxogOhUfNPawkuyat8+XFl/qCoyU9VY5Q+T9fFYGNpfuj7YOTAnLmJvFfl\n8BuhOxSlJlsnzb6BPMKy3hdkeP5q3DNJoEgx6knSF2bITmW062jgUDm4UOq/ESA7\nydeVRV2ic5H9QGPirIscelV9e1w1qwioQhoX3iYUfgTgRsPS14eHrXzXbNDexEnu\n7KUSjuQdS7TSdGV0SzKZZiF94/DatvMiI1E3s1nU1s1NNk3Cr9s+Y8jRSlH1o65g\nf71Z12cufbJ/73FnrT0EN4dm1XURRYmTmxKvY4xyqQKBgQDjVunvDWxr+mIZaY7o\nBuA4jlkOlLOr1lifu2rZiAAnHXR9aJDIXBolZOkTm9OKWwZQYdaqEHFGVWuXPhdK\nx9xf/sJD/6LnVNItcrLRpkI0c4enhCF1+mZybNGCZA4pJE3Ue+Dh6zGok1Y1KRTa\nTMtyG4LvURNOCtl4HZCAx3/V1wKBgQDRkFRzV0Oe4V+rk6es7FQfDA52dFGb/gJo\n45laDHIvILuFVbv3iUYg6mPuaOUtaNYbq8Gtau7oHF0naiOiPcMO7LcRztpEcq52\n01F6aYY2HoJ9qjCc/vkMA7OrpytgT2RIVxyz9yLE8hYlcVV9XBthAVvyLKGfaHwI\nFt4JupVRCQKBgHEQftQHZw7kvflJiGtZUBaQpTYdOqaRug3nFiMOApVxjsf4Q1mC\nhPZoE4tPCoxa7O75WdvGxa9nOFVF6iuk7rNHbrKG5ywKAWXdD5Y5C+AuPR9RFZsp\nZ94sxJ4GyQwpJBQzcAqsAEyIym0x+07+togPqrT/K4y61KFqgr2peqiNAoGAOQrv\nYeH7/xBbyUlM1+4QS88tVKL+39Y5c7GYOYGvxxJC2N1oZ83O8AC9KNUWpNCnjyqm\ncnzsAPRPiv4CKxRitvpKLqe+k+kfgiqtQAPfS3XskSY1S1bAFbwgOPYtAW863dIQ\ndxArP66hxpld6tyae0Iyc+4gJFL9h/opgD5wjHkCgYEAu0olI6DzBTRtD2oNHTrq\niD87Yui3Wc+6AC3nHTp72thfNo5nhse37JGwWzg9b4obenbQJ9C9jk0Ok2841+ip\njJdVUtdEWPiozih2Z1KG7Xey7OPUp77MbtW3f8VjtBWVutQWqvpSH6e3/58baEt2\nDxKwUCXxvd8NXhXcf5rMvIo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-e5e7w@erista-cloud.iam.gserviceaccount.com",
+  "client_id": "117803006112102932893",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-e5e7w%40erista-cloud.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

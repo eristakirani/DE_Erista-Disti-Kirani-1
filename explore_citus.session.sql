@@ -1,12 +1,15 @@
-INSERT INTO transactions_jan24 (
-    transaction_date,
-    transaction_id,
-    amount,
-    customer_id
-  )
-VALUES (
-    'transaction_date:timestamp without time zone',
-    transaction_id:integer,
-    amount:numeric,
-    customer_id:integer
-  );
+DELIMITER // 
+CREATE PROCEDURE cobaIF( 
+    IN bil INT(3) 
+) 
+BEGIN 
+    /*Deklarasi Variabel*/ 
+    DECLARE str VARCHAR(50); 
+    if (bil<0) then 
+        SET str ='Bilangan Positif'; 
+    ELSE 
+        SET str='Bilangan Negatif'; 
+    END if; 
+    SELECT str; 
+END// 
+DELIMITER;
