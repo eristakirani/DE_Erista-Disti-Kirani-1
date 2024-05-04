@@ -1,0 +1,78 @@
+Original Request
+You've asked me to provide a query to create and develop a system using DDL (Data Definition Language) and DML (Data Manipulation Language) statements. I'll provide a simple example of a system that manages customers, orders, and products.
+
+Improved Code
+DDL Statements
+
+Show Diff
+-- Create database
+CREATE DATABASE CustomerOrderSystem;
+
+-- Use the database
+USE CustomerOrderSystem;
+
+-- Create tables
+CREATE TABLE Customers (
+  CustomerID INT PRIMARY KEY,
+  FirstName VARCHAR(50),
+  LastName VARCHAR(50),
+  Email VARCHAR(100) UNIQUE,
+  Phone VARCHAR(20),
+  Address VARCHAR(200)
+);
+
+CREATE TABLE Products (
+  ProductID INT PRIMARY KEY,
+  ProductName VARCHAR(100),
+  Description VARCHAR(200),
+  Price DECIMAL(10, 2),
+  StockQuantity INT
+);
+
+CREATE TABLE Orders (
+  OrderID INT PRIMARY KEY,
+  CustomerID INT,
+  OrderDate DATE,
+  TotalAmount DECIMAL(10, 2),
+  FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
+);
+
+CREATE TABLE OrderDetails (
+  OrderID INT,
+  ProductID INT,
+  Quantity INT,
+  UnitPrice DECIMAL(10, 2),
+  PRIMARY KEY (OrderID, ProductID),
+  FOREIGN KEY (OrderID) REFERENCES Orders(OrderID),
+  FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
+);
+DML Statements
+
+Show Diff
+-- Insert sample data
+INSERT INTO Customers (CustomerID, FirstName, LastName, Email, Phone, Address)
+VALUES
+  (1, 'John', 'Doe', 'john.doe@example.com', '123-456-7890', '123 Main St'),
+  (2, 'Jane', 'Smith', 'jane.smith@example.com', '098-765-4321', '456 Elm St');
+
+INSERT INTO Products (ProductID, ProductName, Description, Price, StockQuantity)
+VALUES
+  (1, 'Product A', 'This is product A', 10.99, 100),
+  (2, 'Product B', 'This is product B', 20.99, 50),
+  (3, 'Product C', 'This is product C', 5.99, 200);
+
+INSERT INTO Orders (OrderID, CustomerID, OrderDate, TotalAmount)
+VALUES
+  (1, 1, '2022-01-01', 21.98),
+  (2, 1, '2022-01-15', 10.99),
+  (3, 2, '2022-02-01', 41.97);
+
+INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice)
+VALUES
+  (1, 1, 2, 10.99),
+  (1, 2, 1, 20.99),
+  (2, 1, 1, 10.99),
+  (3, 3, 3, 5.99);
+This system consists of four tables: Customers, Products, Orders, and OrderDetails. The Customers table stores customer information, the Products table stores product information, the Orders table stores order information, and the OrderDetails table stores the details of each order (which products were ordered and in what quantity).
+
+The DML statements insert sample data into the tables to demonstrate the system's functionality.
